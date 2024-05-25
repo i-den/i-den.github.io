@@ -1,0 +1,28 @@
+.experience-text-cell {
+  width: calc(100% / 2);
+  text-align: center;
+}
+
+.experience-text-cell-hovered {
+  border-radius: 0.8rem;
+  box-shadow: inset 0px 0px 3px 1px rgba(0, 0, 0, 0.75);
+  cursor: default;
+}
+
+@media only screen and (min-width: 600px) {
+  .experience-text-cell {
+    width: calc(100% / 4);
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .experience-text-cell {
+    width: calc(100% / 5);
+  }
+}
+
+@media (min-width: 1366px) {
+  .experience-text-cell {
+    width: calc(100% / 4);
+  }
+}

@@ -1,0 +1,41 @@
+.experience-icon-cell {
+  width: calc(100% / 4);
+  margin: 0.3rem 0;
+}
+
+.experience-icon {
+  background: white;
+  width: 3rem;
+  margin: auto;
+  padding: calc(1rem / 4);
+
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.experience-icon-blurred {
+  filter: blur(5px);
+}
+
+.experience-icon-hovered {
+  border: 2px solid rgba(255, 255, 255, 0.77);
+  cursor: pointer;
+}
+
+@media (min-width: 600px) {
+  .experience-icon-cell {
+    width: calc(100% / 6);
+  }
+}
+
+@media (min-width: 900px) {
+  .experience-icon-cell {
+    width: calc(100% / 8);
+  }
+}
+
+@media (min-width: 1366px) {
+  .experience-icon-cell {
+    width: calc(100% / 6);
+  }
+}
